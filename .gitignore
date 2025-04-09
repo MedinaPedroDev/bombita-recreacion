@@ -19,6 +19,8 @@ backend/API/*/__pycache__
 backend/API/__pycache__
 backend/my_api/__pycache__
 */__pycache__/*
+*/requirements2.txt
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

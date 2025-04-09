@@ -43,7 +43,6 @@ urlpatterns=[
     path('evaluacion/<int:id>/', Evaluacion_View.as_view(), name='evaluacion'),
     path('estadisticas/', Estadistica_View.as_view(), name='estadistica'),
     path('login/', Login.as_view(), name='login'),
-    path('login/', Login.as_view(), name='login'),
     path('verify/', Verify_Token_Views.as_view(), name='verify'),
     path('respaldo/', Respaldo.as_view(), name='respaldo'),
 ]
